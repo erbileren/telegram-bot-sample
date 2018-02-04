@@ -6,11 +6,11 @@ var TelegramBot = require('node-telegram-bot-api');
 // token from BotFather
 var token = "522194238:AAHuSyF-9WsgForrV5EzApBltMqP-HXUMfM";
 
-var bot = new TelegramBot(token, opt);
-
 var opt = {
     polling: true
 };
+
+var bot = new TelegramBot(token, opt);
 
 // api request options for BTC price
 var apiOpt = {
